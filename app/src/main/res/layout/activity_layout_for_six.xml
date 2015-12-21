@@ -1,0 +1,108 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- The main content view -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:minWidth="160dp"
+            android:minHeight="103dp"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/image_six_1"
+            android:layout_marginTop="83dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_action_name"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:minWidth="160dp"
+            android:minHeight="103dp"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/image_six_2"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_action_name"
+            android:layout_alignTop="@+id/image_six_1"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:minWidth="160dp"
+            android:minHeight="103dp"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/image_six_3"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_action_name"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="83dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:minWidth="160dp"
+            android:minHeight="103dp"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/image_six_4"
+            android:src="@drawable/ic_action_name"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/image_six_3" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:minWidth="160dp"
+            android:minHeight="103dp"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/image_six_5"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_action_name"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/image_six_3"
+            android:layout_marginBottom="83dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/customborder"
+            android:minWidth="160dp"
+            android:minHeight="103dp"
+            android:nestedScrollingEnabled="true"
+            android:id="@+id/image_six_6"
+            android:src="@drawable/ic_action_name"
+            android:layout_alignTop="@+id/image_six_4"
+            android:layout_alignStart="@+id/image_six_2"
+            android:layout_marginRight="10dp" />
+
+
+    </RelativeLayout>
+
+    <!-- The navigation drawer -->
+
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#1a1c25"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+
+</android.support.v4.widget.DrawerLayout>

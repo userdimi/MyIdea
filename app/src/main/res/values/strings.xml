@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Idea</string>
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>My Compositions</item>
+        <item>Layouts</item>
+        <!-- <item>Third</item> -->
+    </string-array>
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </array>
+    <string name="take_picture">Take a picture</string>
+    <string name="write_idea">Write an idea</string>
+    <string name="make_tweet">Make a tweet</string>
+    <string name="save_it">Save the picture</string>
+    <string name="txtIdea">Heureka !!!</string>
+</resources>
