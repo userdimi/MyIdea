@@ -69,12 +69,11 @@
             android:minWidth="160dp"
             android:minHeight="103dp"
             android:nestedScrollingEnabled="true"
-            android:id="@+id/image_six_5"
-            android:layout_marginRight="10dp"
+            android:id="@+id/image_six_6"
             android:src="@drawable/ic_action_name"
-            android:layout_alignParentBottom="true"
-            android:layout_alignStart="@+id/image_six_3"
-            android:layout_marginBottom="83dp" />
+            android:layout_alignTop="@+id/image_six_4"
+            android:layout_alignStart="@+id/image_six_2"
+            android:layout_marginRight="10dp" />
 
         <ImageView
             android:layout_width="150dp"
@@ -83,11 +82,11 @@
             android:minWidth="160dp"
             android:minHeight="103dp"
             android:nestedScrollingEnabled="true"
-            android:id="@+id/image_six_6"
+            android:id="@+id/image_six_5"
+            android:layout_marginRight="10dp"
             android:src="@drawable/ic_action_name"
-            android:layout_alignTop="@+id/image_six_4"
-            android:layout_alignStart="@+id/image_six_2"
-            android:layout_marginRight="10dp" />
+            android:layout_alignBottom="@+id/image_six_3"
+            android:layout_alignParentEnd="true" />
 
 
     </RelativeLayout>
