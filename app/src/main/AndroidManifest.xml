@@ -33,7 +33,7 @@
         <activity android:name=".PenActivity" />
         <activity android:name=".ImageViewerActivity" />
         <activity android:name=".LayoutForThreeActivity" />
-        <activity android:name=".LayoutForFive" />
+        <activity android:name=".LayoutForFourActivity" />
         <activity android:name=".LayoutForFiveActivity" />
         <activity android:name=".LayoutForSixActivity" />
         <activity android:name=".LayoutForSevenActivity" />
