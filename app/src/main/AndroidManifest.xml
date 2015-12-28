@@ -30,7 +30,7 @@
         <activity android:name=".CompositionViewActivity" />
         <activity android:name=".LayoutListActivity" />
         <activity android:name=".CameraActivity" />
-        <activity android:name=".PenActivity" />
+        <activity android:name=".SaveCompositionActivity" />
         <activity android:name=".ImageViewerActivity" />
         <activity android:name=".LayoutForThreeActivity" />
         <activity android:name=".LayoutForFourActivity" />

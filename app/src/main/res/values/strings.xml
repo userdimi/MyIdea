@@ -16,4 +16,10 @@
     <string name="make_tweet">Make a tweet</string>
     <string name="save_it">Save the picture</string>
     <string name="txtIdea">Heureka !!!</string>
+    <string name="save_layout">Save Layout</string>
+    <string name="new_composition">New Composition</string>
+    <string name="compoTitle">Title</string>
+    <string name="compoDescription">Description</string>
+    <string name="btnSaveComposition">Save</string>
+    <string name="btnCancelSaveCompo">Cancel</string>
 </resources>
