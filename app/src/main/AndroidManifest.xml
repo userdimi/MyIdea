@@ -7,10 +7,16 @@
         android:name="android.hardware.camera"
         android:required="true" />
 
-    <uses-permission
-        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission
-        android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="23" />
+
+    <!-- uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" / !-->
+
+    <uses-permission-sdk-23
+        android:name="android.permission.CAMERA"
+        android:maxSdkVersion="23" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +33,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MyCompositionsListActivity" />
-        <activity android:name=".CompositionViewActivity" />
         <activity android:name=".LayoutListActivity" />
         <activity android:name=".CameraActivity" />
         <activity android:name=".SaveCompositionActivity" />
@@ -38,7 +43,6 @@
         <activity android:name=".LayoutForSixActivity" />
         <activity android:name=".LayoutForSevenActivity" />
         <activity android:name=".LayoutForEightActivity" />
-
 
     </application>
 

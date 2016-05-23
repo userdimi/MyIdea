@@ -36,12 +36,12 @@
             android:layout_gravity="right|bottom">
 
             <com.getbase.floatingactionbutton.FloatingActionButton
-                android:id="@+id/btnTweetPicture"
+                android:id="@+id/btnSavePicture"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 fab:fab_colorNormal="#e91e63"
                 fab:fab_colorPressed="#ec407a"
-                fab:fab_icon="@drawable/ic_twitter_blue"
+                fab:fab_icon="@drawable/ic_fab_save"
                 fab:fab_size="normal"
                 fab:fab_title="@string/make_tweet" />
 
