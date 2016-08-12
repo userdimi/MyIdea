@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dudi.myidea"
     android:versionCode="1"
@@ -10,28 +11,28 @@
     <uses-permission-sdk-23
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="23" />
-
-    <!-- uses-permission
-        android:name="android.permission.READ_EXTERNAL_STORAGE" / !-->
-
     <uses-permission-sdk-23
         android:name="android.permission.CAMERA"
         android:maxSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
+        android:icon="@drawable/ic_app_launcher"
         android:label="@string/app_name"
-        android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".HomeActivity"
+        <activity
+            android:name=".StartActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".HomeActivity"></activity>
         <activity android:name=".MyCompositionsListActivity" />
         <activity android:name=".LayoutListActivity" />
         <activity android:name=".CameraActivity" />
@@ -43,6 +44,11 @@
         <activity android:name=".LayoutForSixActivity" />
         <activity android:name=".LayoutForSevenActivity" />
         <activity android:name=".LayoutForEightActivity" />
+
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f376db1abdda8bd2843b952088caf32bd6f7c428" />
 
     </application>
 
